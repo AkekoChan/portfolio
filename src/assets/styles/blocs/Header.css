@@ -1,0 +1,29 @@
+#header {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* backdrop-filter: blur(30px); */
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header__logo img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.header__navigation {
+  margin-left: auto;
+}
+.header__navigation ul {
+  display: flex;
+  gap: 0.75rem;
+}

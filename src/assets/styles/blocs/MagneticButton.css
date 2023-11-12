@@ -1,0 +1,13 @@
+.magnetic {
+  display: inline-block;
+  background: var(--black-2);
+  border: 2px solid var(--border-btn);
+  border-radius: 10px;
+  padding: 0.625rem 1.5rem;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.magnetic:hover {
+  background: var(--black-3);
+}

@@ -1,0 +1,11 @@
+.pathDraw {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -999;
+}
+
+#myPath {
+  width: 100%;
+  height: 100%;
+}

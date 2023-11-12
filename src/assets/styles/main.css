@@ -1,0 +1,71 @@
+@import "vendors/reset.css";
+@import "global/font.css";
+@import "blocs/Header.css";
+@import "blocs/MagneticButton.css";
+@import "blocs/DrawPath.css";
+
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+:root {
+  --black-1: #000;
+  --black-2: #161616;
+  --black-3: #272727;
+
+  --white: #fff;
+  --pink: #e83b68;
+  --yellow: #f9d55b;
+
+  --border-btn: rgba(240, 240, 240, 0.5);
+  --text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+  --font-10px-0_625rem: 0.625rem;
+  --font-12px-0_75rem: 0.75rem;
+  --font-14px-0_875rem: 0.875rem;
+  --font-16px-1rem: 1rem;
+  --font-20px-1_25rem: 1.25rem;
+  --font-24px-1_5rem: 1.5rem;
+  --font-32px-2rem: 2rem;
+  --font-48px-3rem: 3rem;
+  --font-64px-4rem: 4rem;
+  --font-96px-6rem: 6rem;
+  --font-128px-8rem: 8rem;
+  --font-weight-regular: 400;
+  --font-weight-mediulm: 500;
+  --font-weight-semibod: 600;
+  --font-weight-bold: 700;
+}
+
+html,
+button,
+a,
+input::placeholder {
+  font-family: "Arimo", sans-serif;
+  color: var(--white);
+  letter-spacing: 0.1rem;
+}
+
+body {
+  background: var(--black-1);
+  min-width: 320px;
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.firstLetter {
+  font-style: italic;
+}
+
+section {
+  height: 100vh;
+}
